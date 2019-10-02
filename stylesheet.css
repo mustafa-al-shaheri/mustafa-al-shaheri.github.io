@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent {
+    background: #3d4f5d;
+    position: relative;
+    width: 24%;
+    height: 100%;
+    margin: 0px;
+    position: fixed;
+}
+#child {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: right;
+    transform: translate(-40%);
+    width: 20%;
+    font-family: 'Be Vietnam', sans-serif;
+    position: fixed;
+}
+#child h1 {
+    color: white;
+    font-size: 30px;
+}
+#child p {
+    color: #b0cadb;
+    font-size: 22px;
+}
+#child a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 6px;
+    line-height: 60px;
+    border: 2px solid #b0cadb;
+}
+.container {
+    float: right;
+    margin-top: 50px;
+    padding-right: 15px;
+    position: relative;
+    width: 76%;
+    height: 100%;
+}
+
+.container .post{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 6px;
+    line-height: 30px;
+    
+}
+
+.post h5{
+    color:F0EEF1;
+    margin-bottom: 20px;
+}
+aside{
+    display: inline;
+}
+.post aside{
+    color:grey;
+}
+.post aside span{
+    color:blue;
+}
+.post a.css{
+    color: white;
+    background:green;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 6px;
+    line-height: 60px;
+}
+.post a.java{
+    color: white;
+    background:blue;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 6px;
+    line-height: 60px;
+}
+.post a.red-java{
+    color: white;
+    background:red;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 6px;
+    line-height: 60px;
+ 
+}
+.post a.place{
+    color: white;
+    background:grey;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 6px;
+    line-height: 60px;
+ 
+}
+
+
+.container .profile{ 
+    float: right;
+    width: 59px;
+    margin: 4px 0 0 4px
+}
+
+
+
+.communication {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+}
+.communication a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(190, 188, 188);
+    padding: 10px;
+}
